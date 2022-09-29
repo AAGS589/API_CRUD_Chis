@@ -1,0 +1,37 @@
+{
+  "name": "turismochiapas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-jsx-control-statements": "^4.1.0",
+    "css-loader": "^5.2.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "jsx-control-statements": "^3.2.8",
+    "mini-css-extract-plugin": "^1.4.1",
+    "path": "^0.12.7",
+    "react-hot-loader": "^4.13.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.27.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@webpack-cli/serve": "^1.3.0",
+    "immutability-helper": "^3.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  }
+}

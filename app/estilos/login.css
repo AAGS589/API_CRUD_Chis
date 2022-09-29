@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.h2Login{
+    font-size: 50px;
+}
+.titulo-login{
+    color: #FFFFFF;
+}
+
+.formulario{
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0, 0.568);
+    color: white;
+    height: 70vh;
+}
+
+.inputLogin{
+    background: rgba(0,0,0, .3);
+}
+
+.btn-login{
+    background: #FFFFFF;
+    width: 100%;
+    line-height: 2.5;
+    box-shadow: 5px 0 #367ABA inset;
+    transition: all 1s;
+}
+
+.btn-login:hover{
+    color: #FFFFFF;
+    box-shadow: 500px 0 #367ABA inset;
+}
+
+.body-login{
+    background-image: url("https://cdn.pixabay.com/photo/2018/09/04/23/59/chiapas-3655150_960_720.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 635px;
+    width: 1354px;
+}
+
+@media screen and (max-width: 800px){
+    .body-login{
+        width: 795px;
+        height: 630px;
+    }
+    .formulario{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .body-login{
+        width: 499px;
+        height: 625px;
+    }
+    .formulario{
+        width: 400px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .titulo-login{
+        font-size: 45px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+
